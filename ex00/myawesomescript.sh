@@ -1,3 +1,3 @@
 #!/bin/sh
 
-curl -Ls -D - $1 -o /dev/null
+curl -s -D - $1 | grep 'Location:' | cut -c 11-
