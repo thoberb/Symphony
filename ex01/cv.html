@@ -1,47 +1,82 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My CV</title>
+        <title>CV Blandine Berthod</title>
         <style>
-            td, th {border: 1px solid;
-            padding: 6px 10px;}
+            body{
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            }
+            td, th {
+                border: 1px solid;
+                padding: 6px 10px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+            p, table, ul, ol{
+                margin-top: -1.4%;
+                margin-right: 2%;
+                font-size: 15px;
+            }
+            li{
+                font-size: 15px;
+            }
+            tr:last-child td:last-child {
+            outline: 1px solid #424242;
+            }
         </style>
     </head>
     <body>
-        <h1>My Experiences</h1>
-        <table style="border-collapse: collapse">
-            <tr>
-                <th>Company</th>
-                <th>Role</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td>Everdian</td>
-                <td>Product Owner</td>
-                <td>Created Roadmaps</td>
-            </tr>
-            <tr>
-                <td>Thales</td>
-                <td>Frontend Developper</td>
-                <td>Refactored clients website</td>
-            </tr>
-            <tr>
-                <td>StationF</td>
-                <td>Project Manager</td>
-                <td style="border-color: red">Guided project from a to z</td>
-            </tr>
-        </table>
-        <ul>
-            <li>hello</li>
-            <li>hello</li>
-            <li>hello</li>
-            <li>hello</li>
-        </ul>
-        <ol>
-            <li>hello</li>
-            <li>hello</li>
-            <li>hello</li>
-            <li>hello</li>
-        </ol>
+        <div style="position: relative;">
+            <img src="https://media.licdn.com/dms/image/v2/D4E16AQHTpAnAQInXGQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1725877507826?e=1758153600&v=beta&t=WVAstbLA0maIcFfXZWwofjzAbfasbdd0UK7BLsic2EU" 
+                alt="Image de fond LinkedIn" 
+                width=100%>
+
+            <img src ="https://media.licdn.com/dms/image/v2/D4E03AQHsoqe2N0noCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726083110379?e=1758153600&v=beta&t=FgL3JxpBhl5xwIv69KblnYluZ8WAjeWHN6pgMeqdNvI"
+                alt="Photo de profil"
+                width="20%"
+                style="position: absolute; left:2%; bottom: -20%; border:5px solid white; border-radius: 50%;">
+        </div>
+        <div style="margin-left: 3%">
+            <h1 style="margin-top: 7%">Blandine Berthod</h1>
+            <p>Product Owner at Everdian</p>
+            <h1>About</h1>
+            <p >As a versatile Product Owner, I bridge the gap between strategy and hands-on execution, owning the product lifecycle from vision to release. With a hybrid role blending product ownership, Agile leadership, QA testing, and technical collaboration in both design and dev, I ensure seamless delivery by working at every level.</p>
+            <h1>Experience</h1>
+            <table style="border-collapse: collapse; margin-top: -1%; color:grey">
+                <tr>
+                    <th>Company</th>
+                    <th>Role</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Everdian</td>
+                    <td>Product Owner</td>
+                    <td>Created Roadmaps</td>
+                </tr>
+                <tr>
+                    <td>Thales</td>
+                    <td>Frontend Developper</td>
+                    <td>Refactored clients website</td>
+                </tr>
+                <tr >
+                    <td>StationF</td>
+                    <td>Project Manager</td>
+                    <td>Guided project from A to Z</td>
+                </tr>
+            </table>
+            <h1>Education</h1>
+            <ul>
+                <li>Designer UI/UX</li>
+                <li>Product Management</li>
+                <li>Development</li>
+            </ul>
+            <h1>Skills</h1>
+            <ol>
+                <li>Autonomous</li>
+                <li>Curious</li>
+                <li>Bilingual : French / English</li>
+            </ol>
+        </div>
     </body>
 </html>
